@@ -77,7 +77,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"Pages Back|3|{videoid}|{chat_id}",
             ),
         ],
-        [
             InlineKeyboardButton(
                 text= "📥 ᴠɪᴅᴇᴏ",
                 callback_data=f"downloadvideo {videoid}"),
@@ -106,7 +105,6 @@ def stream_markup(_, videoid, chat_id):
                 callback_data=f"Pages Back|3|{videoid}|{chat_id}",
             ),
         ],
-        [
             InlineKeyboardButton(
                 text= "📥 ᴠɪᴅᴇᴏ",
                 callback_data=f"downloadvideo {videoid}"),
