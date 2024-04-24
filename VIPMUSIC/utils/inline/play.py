@@ -94,8 +94,8 @@ def stream_markup(_, videoid, chat_id):
     buttons  = [
 
         [
+        [
             InlineKeyboardButton(
-                textInlineKeyboardButton(
                 text="ᴄᴏɴᴛʀᴏʟs ♻",
                 callback_data=f"Pages Back|3|{videoid}|{chat_id}",
             ),
