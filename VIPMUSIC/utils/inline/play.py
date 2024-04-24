@@ -73,22 +73,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         
         
             InlineKeyboardButton(
-                text="ᴄᴏɴᴛʀᴏʟs ♻",
-                callback_data=f"Pages Back|3|{videoid}|{chat_id}",
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["PL_B_2"],
+                callback_data=f"add_playlist {videoid}",
+            ),
+            InlineKeyboardButton(
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING"
             ),
         ],
         [
             InlineKeyboardButton(
-                text= "📥 ᴠɪᴅᴇᴏ",
-                callback_data=f"downloadvideo {videoid}"),
-            InlineKeyboardButton(
-                text= "📥 ᴀᴜᴅɪᴏ",
-                callback_data=f"downloadaudio {videoid}")
-        ],
-        [
-            InlineKeyboardButton(
-                text="๏ ᴀᴅᴠᴀɴᴄᴇ ๏",
-                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/BWF_MUSIC1"),
             ),
         ],
     ]
@@ -108,28 +111,25 @@ def stream_markup(_, videoid, chat_id):
 
         [
             InlineKeyboardButton(
-                text= "✚ ᴘʟᴀʏʟɪsᴛ",
-                callback_data=f"vip_playlist {videoid}"
-            ),
-        
-        
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
+            )
+        ],
+        [
             InlineKeyboardButton(
-                text="ᴄᴏɴᴛʀᴏʟs ♻",
-                callback_data=f"Pages Back|3|{videoid}|{chat_id}",
+                text=_["PL_B_2"],
+                callback_data=f"add_playlist {videoid}",
+            ),
+            InlineKeyboardButton(
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING"
             ),
         ],
         [
             InlineKeyboardButton(
-                text= "📥 ᴠɪᴅᴇᴏ",
-                callback_data=f"downloadvideo {videoid}"),
-            InlineKeyboardButton(
-                text= "📥 ᴀᴜᴅɪᴏ",
-                callback_data=f"downloadaudio {videoid}")
-        ],
-        [
-            InlineKeyboardButton(
-                text="๏ ᴀᴅᴠᴀɴᴄᴇ ๏",
-                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/BWF_MUSIC1"),
             ),
         ],
     ]
