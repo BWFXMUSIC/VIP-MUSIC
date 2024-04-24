@@ -68,13 +68,13 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(text="🌼 ᴘʟᴀʏʟɪsᴛs", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(
-                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING"
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/Mrrohan9"
             ),
         ],
         [
             InlineKeyboardButton(text="💮︎ ᴄᴘᴀɴɴᴇʟ", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(
-                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/L2R_KING"
+                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/+ljwt-Xi92IUzZTFl"
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -88,13 +88,13 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(text="🌼 ᴘʟᴀʏʟɪsᴛs", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(
-                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING"
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/Mrrohan9"
             ),
         ],
         [
             InlineKeyboardButton(text="💮︎ ᴄᴘᴀɴɴᴇʟ", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(
-                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/L2R_KING"
+                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/+ljwt-Xi92IUzZTFl"
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
