@@ -66,7 +66,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons  = [
 
         [
-        [
             InlineKeyboardButton(text="🌼 ᴘʟᴀʏʟɪsᴛs", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(
                 text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING"
@@ -86,7 +85,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 def stream_markup(_, videoid, chat_id):
     buttons  = [
         
-        [
         [
             InlineKeyboardButton(text="🌼 ᴘʟᴀʏʟɪsᴛs", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(
