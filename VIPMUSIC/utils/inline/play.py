@@ -67,6 +67,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
         [
             InlineKeyboardButton(
+                text= "✚ ᴘʟᴀʏʟɪsᴛ",
+                callback_data=f"vip_playlist {videoid}"
+            ),
+        
+        
+            InlineKeyboardButton(
                 text="ᴄᴏɴᴛʀᴏʟs ♻",
                 callback_data=f"Pages Back|3|{videoid}|{chat_id}",
             ),
@@ -78,11 +84,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(
                 text= "📥 ᴀᴜᴅɪᴏ",
                 callback_data=f"downloadaudio {videoid}")
-        ],
-        [
-            InlineKeyboardButton(
-                text="๏ ᴀᴅᴠᴀɴᴄᴇ ๏",
-                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
             ),
         ],
     ]
@@ -95,6 +96,12 @@ def stream_markup(_, videoid, chat_id):
         
         [
             InlineKeyboardButton(
+                text= "✚ ᴘʟᴀʏʟɪsᴛ",
+                callback_data=f"vip_playlist {videoid}"
+            ),
+        
+        
+            InlineKeyboardButton(
                 text="ᴄᴏɴᴛʀᴏʟs ♻",
                 callback_data=f"Pages Back|3|{videoid}|{chat_id}",
             ),
@@ -106,11 +113,6 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text= "📥 ᴀᴜᴅɪᴏ",
                 callback_data=f"downloadaudio {videoid}")
-        ],
-        [
-            InlineKeyboardButton(
-                text="๏ ᴀᴅᴠᴀɴᴄᴇ ๏",
-                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
             ),
         ],
     ]
