@@ -95,19 +95,7 @@ def stream_markup(_, videoid, chat_id):
 
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
-                url=f"https://t.me/{app.username}?startgroup=true",
-            ),
-        ],
-
-        [
-            InlineKeyboardButton(
-                text= "✚ ᴘʟᴀʏʟɪsᴛ",
-                callback_data=f"vip_playlist {videoid}"
-            ),
-        
-        
-            InlineKeyboardButton(
+                textInlineKeyboardButton(
                 text="ᴄᴏɴᴛʀᴏʟs ♻",
                 callback_data=f"Pages Back|3|{videoid}|{chat_id}",
             ),
