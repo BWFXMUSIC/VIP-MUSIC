@@ -84,7 +84,7 @@ async def gen_thumb(videoid, user_id):
             background = enhancer.enhance(0.6)
             image2 = background
                                                                                             
-            circle = Image.open("strings/assets/circle.png")
+            circle = Image.open("VIPMUSIC/assets/circle.png")
 
             # changing circle color
             im = circle
@@ -116,10 +116,10 @@ async def gen_thumb(videoid, user_id):
             image2.paste(circle, (0,0), mask = circle)
 
             # fonts
-            font1 = ImageFont.truetype('strings/assets/font.ttf', 30)
-            font2 = ImageFont.truetype('strings/assets/font2.ttf', 70)
-            font3 = ImageFont.truetype('strings/assets/font2.ttf', 40)
-            font4 = ImageFont.truetype('strings/assets/font2.ttf', 35)
+            font1 = ImageFont.truetype('VIPMUSIC/assets/font.ttf', 30)
+            font2 = ImageFont.truetype('VIPMUSIC/assets/font2.ttf', 70)
+            font3 = ImageFont.truetype('VIPMUSIC/assets/font2.ttf', 40)
+            font4 = ImageFont.truetype('VIPMUSIC/assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
             image4.text((10, 10), "L2R MUSIC", fill="white", font = font1, align ="left") 
