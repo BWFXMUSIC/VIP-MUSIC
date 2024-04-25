@@ -38,7 +38,7 @@ def truncate(text):
     text2 = text2.strip()     
     return [text1,text2]
 
-async def get_thumb(videoid):
+async def gen_thumb(videoid, user_id):
     try:
         if os.path.isfile(f"cache/{videoid}.jpg"):
             return f"cache/{videoid}.jpg"
@@ -84,7 +84,7 @@ async def get_thumb(videoid):
             background = enhancer.enhance(0.6)
             image2 = background
                                                                                             
-            circle = Image.open("VIPMUSIC/assets/circle.png")
+            circle = Image.open("strings/assets/circle.png")
 
             # changing circle color
             im = circle
@@ -116,13 +116,13 @@ async def get_thumb(videoid):
             image2.paste(circle, (0,0), mask = circle)
 
             # fonts
-            font1 = ImageFont.truetype('VIPMUSIC/assets/font.ttf', 30)
-            font2 = ImageFont.truetype('VIPMUSIC/assets/font2.ttf', 70)
-            font3 = ImageFont.truetype('VIPMUSIC/assets/font2.ttf', 40)
-            font4 = ImageFont.truetype('VIPMUSIC/assets/font2.ttf', 35)
+            font1 = ImageFont.truetype('strings/assets/font.ttf', 30)
+            font2 = ImageFont.truetype('strings/assets/font2.ttf', 70)
+            font3 = ImageFont.truetype('strings/assets/font2.ttf', 40)
+            font4 = ImageFont.truetype('strings/assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((10, 10), "ASHISH MUSIC", fill="white", font = font1, align ="left") 
+            image4.text((10, 10), "L2R MUSIC", fill="white", font = font1, align ="left") 
             image4.text((670, 150), "NOW PLAYING", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
