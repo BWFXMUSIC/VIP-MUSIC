@@ -38,7 +38,7 @@ def truncate(text):
     text2 = text2.strip()     
     return [text1,text2]
 
-async def gen_thumb(videoid, user_id):
+async def get_thumb(videoid):
     try:
         if os.path.isfile(f"cache/{videoid}.jpg"):
             return f"cache/{videoid}.jpg"
@@ -122,7 +122,7 @@ async def gen_thumb(videoid, user_id):
             font4 = ImageFont.truetype('VIPMUSIC/assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((10, 10), "L2R MUSIC", fill="white", font = font1, align ="left") 
+            image4.text((10, 10), "ASHISH MUSIC", fill="white", font = font1, align ="left") 
             image4.text((670, 150), "NOW PLAYING", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
