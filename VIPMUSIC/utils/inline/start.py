@@ -19,10 +19,10 @@ def start_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text="💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=config.SUPPORT_CHAT),
+                text="💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"https://t.me/BWF_MUSIC1"
             ),
             InlineKeyboardButton(
-                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡", url=config.SUPPORT_CHANNEL),
+                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡", url=f"https://t.me/BWF_MUSIC1"
             )
         ],
      ]
@@ -39,10 +39,10 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text="📨 ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
+                text="📨 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/BWF_MUSIC1"
             ),
             InlineKeyboardButton(
-                text="📨 sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT),
+                text="📨 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/BWF_MUSIC1"
             )
         ],
         [
