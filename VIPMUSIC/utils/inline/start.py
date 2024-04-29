@@ -43,7 +43,7 @@ def private_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text="🔥 ᴏᴡɴᴇʀ 🔥", user_id=OWNER),
+            InlineKeyboardButton(text="🔥 ᴏᴡɴᴇʀ 🔥", user_id=OWNER,
         ],
         [
             InlineKeyboardButton(text="🇮🇳 ʟᴀɴɢᴜᴀɢᴇ 🏳️‍🌈", url=f"https://t.me/L2R_KING"),
