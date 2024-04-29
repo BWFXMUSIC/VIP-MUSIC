@@ -34,16 +34,16 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text="📨 ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
+                text="📨 ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
             ),
             InlineKeyboardButton(
-                text="📨 sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT
+                text="📨 sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT),
             )
         ],
         [
             InlineKeyboardButton(
                 text="⛩️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⛩️",
-                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
             )
         ],
         [
