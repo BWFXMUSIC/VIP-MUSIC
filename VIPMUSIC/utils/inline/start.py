@@ -37,14 +37,11 @@ def private_panel(_):
             InlineKeyboardButton(text="𝐌ᴏʀᴇ🥀", url=config.SUPPORT_CHANNEL),
         ],
         [
+            InlineKeyboardButton(text="۞۞", callback_data="settings_back_helper")
+        ],
+        [
             InlineKeyboardButton(text="۞ 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ۞", callback_data="settings_back_helper")
         ],
-        [
-    
-            InlineKeyboardButton(text="۞ 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ۞", url=f"https://t.me/BWF_MUSIC1"
-
-        ],
-        [
             InlineKeyboardButton(text="۞ 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ۞", url=f"https://t.me/BWF_MUSIC1"
         ],
     ]
