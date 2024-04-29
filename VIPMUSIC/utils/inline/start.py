@@ -9,7 +9,7 @@ def start_panel(_):
         [
             InlineKeyboardButton(
                 text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬",
-                url=f"https://t.me/{BOT_USERNAME}?start=help",
+                url=f"https://t.me/{BOT_USERNAME}?start=help"
             )
         ],
         [
@@ -19,10 +19,10 @@ def start_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text="💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=config.SUPPORT_CHAT
+                text="💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=config.SUPPORT_CHAT),
             ),
             InlineKeyboardButton(
-                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡", url=config.SUPPORT_CHANNEL
+                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬 📡", url=config.SUPPORT_CHANNEL),
             )
         ],
      ]
@@ -39,10 +39,10 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(
-                text="📨 ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
+                text="📨 ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
             ),
             InlineKeyboardButton(
-                text="📨 sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT
+                text="📨 sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT),
             )
         ],
         [
