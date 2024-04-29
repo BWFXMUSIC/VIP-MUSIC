@@ -56,6 +56,7 @@ def private_panel(_):
             InlineKeyboardButton(
                 text="🇮🇳 ʟᴀɴɢᴜᴀɢᴇ 🏳️‍🌈",
                 callback_data="LG"
-        ],
-    ]
+            )
+        ]
+     ]
     return buttons
