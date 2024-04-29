@@ -29,7 +29,7 @@ def private_panel(_):
         [
             InlineKeyboardButton(
                 text="💠 𝐀𝙳𝙳 𝙼𝙴 𝙸𝙽 𝙽𝙴𝚆 𝙶𝚁𝙾𝚄𝙿𝚂 💠",
-                callback_data="settings_back_helper")
+                callback_data="settings_back_helper"
             )
         ],
         [
@@ -37,7 +37,7 @@ def private_panel(_):
             InlineKeyboardButton(text="𝐌ᴏʀᴇ🥀", url=config.SUPPORT_CHANNEL),
         ],
         [
-            InlineKeyboardButton(text="۞۞", url=f"https://t.me/{app.username}?startgroup=true",
+            InlineKeyboardButton(text="💠 𝐀𝙳𝙳 𝙼𝙴 𝙸𝙽 𝙽𝙴𝚆 𝙶𝚁𝙾𝚄𝙿𝚂 💠", url=f"https://t.me/{app.username}?startgroup=true",
         ],
         [
             InlineKeyboardButton(text="۞ 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ۞", callback_data="settings_back_helper")
